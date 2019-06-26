@@ -19,7 +19,7 @@ async function main(name = null) {
     strip: 1,
     filter(file) {
       return (
-        !file.path.includes(".gitkeep") || !file.path.includes("renovate.json")
+        !file.path.includes(".gitkeep") && !file.path.includes("renovate.json")
       );
     }
   });
