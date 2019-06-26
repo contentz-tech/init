@@ -1,0 +1,44 @@
+{
+  "name": "@contentz/init",
+  "description": "Initialize a new Contentz website",
+  "version": "3.14.0",
+  "main": "src/index.js",
+  "bin": {
+    "contentz-init": "./cli.js"
+  },
+  "files": [
+    "src",
+    "cli.js",
+    "package.json"
+  ],
+  "keywords": [
+    "contentz",
+    "ssg",
+    "static",
+    "website",
+    "optimized",
+    "performance",
+    "offline first",
+    "mdx",
+    "i18n"
+  ],
+  "repository": "https://github.com/contentz-tech/init.git",
+  "author": {
+    "name": "Sergio Xalambrí",
+    "email": "hello@sergiodxa.com",
+    "url": "https://sergiodxa.com"
+  },
+  "homepage": "https://contentz.tech",
+  "bugs": {
+    "email": "hello+contentz@sergiodxa.com",
+    "url": "https://github.com/contentz-tech/init/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "download": "^7.1.0",
+    "execa": "^1.0.0",
+    "meow": "^5.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
